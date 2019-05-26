@@ -1,0 +1,2 @@
+# memberlistavatar
+phpBB memberlistavatar extension

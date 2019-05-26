@@ -1,0 +1,6 @@
+services:
+    mazeltof.memberlistavatar.listener:
+        class: mazeltof\memberlistavatar\event\listener
+        tags:
+            - { name: event.listener }
+

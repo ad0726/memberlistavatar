@@ -1,0 +1,9 @@
+{% if group.user[i].AVATAR_IMG %}
+    <span class="memberlistavatar">
+        {{ group.user[i].AVATAR_IMG }}
+    </span>
+{% else %}
+    <span class="memberlistavatar">
+        <img src="./ext/mazeltof/memberlistavatar/styles/prosilver/theme/images/no_avatar.gif" alt="{{ L_NO_AVATARS }}"/>
+    </span>
+{% endif %}

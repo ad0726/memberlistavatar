@@ -3,7 +3,7 @@ phpBB Extension - memberlistavatar
 
 ## Install
 
-1. Download the [latest release](https://github.com/ady/memberlistavatar/releases).
+1. Download the [latest release](https://github.com/ad0726/memberlistavatar/releases).
 2. Unzip the downloaded release, and change the name of the folder to `memberlistavatar`.
 3. In the `ext` directory of your phpBB board, create a new directory named `mazeltof` if it does not already exist.
 4. Copy the `memberlistavatar` folder to `/ext/mazeltof/`. If done correctly, the folder structure should look like this: `your forum root)/ext/mazeltof/memberlistavatar/composer.json`.

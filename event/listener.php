@@ -29,7 +29,7 @@ class listener implements EventSubscriberInterface
 			'core.memberlist_team_modify_query'         => 'memberlist_team_modify_query',
 			'core.memberlist_team_modify_template_vars' => 'memberlist_team_modify_template_vars'
         ];
-    }
+	}
 
     public function memberlist_team_modify_query($event)
     {
@@ -42,14 +42,12 @@ class listener implements EventSubscriberInterface
 		$event['sql_ary'] = $sql_ary;
 	}
 
-	public function memberlist_team_modify_template_vars($event) {
-		$groups_ary    = $event['groups_ary'];
+	public function memberlist_team_modify_template_vars($event)
+	{
 		$row           = $event['row'];
 		$template_vars = $event['template_vars'];
-		$user_avatar   = $row['user_avatar'];
 
-		$template_vars['AVATAR_IMG'] = "<img src='./download/file.php?avatar=$user_avatar'>";
-
-		$event['template_vars'] = $template_vars;
+		$template_vars['AVATAR_IMG']    = $row['user_avatar'];
+		$event['template_vars']		    = $template_vars;
 	}
 }

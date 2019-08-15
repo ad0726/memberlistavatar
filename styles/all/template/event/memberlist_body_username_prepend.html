@@ -1,0 +1,9 @@
+{% if memberrow.AVATAR_IMG %}
+    <span class="memberlistavatar">
+        {{ memberrow.AVATAR_IMG }}
+    </span>
+{% else %}
+    <span class="memberlistavatar">
+        <img src="{{ T_THEME_PATH }}/images/no_avatar.gif" alt="{L_NO_AVATARS}"/>
+    </span>
+{% endif %}

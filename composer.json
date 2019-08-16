@@ -3,14 +3,19 @@
     "type": "phpbb-extension",
     "description": "Avatar dans la liste des membres",
     "homepage": "http://www.phpbb-fr.com/customise/db/author/mazeltof/",
-    "version": "1.0.1",
-    "keywords": ["phpbb", "extension", "memberlistavatar", "mazeltof"],
+    "version": "2.0.1",
+    "keywords": ["phpbb", "extension", "memberlistavatar", "mazeltof", "ady", "avatar", "memberlist"],
     "license": "GPL-2.0-only",
     "authors": [
         {
             "name": "mazeltof",
             "homepage": "http://www.mazeland.fr",
             "role": "Sorcerer's Apprentice"
+        },
+        {
+            "name": "Ady",
+            "homepage": "https://github.com/ad0726",
+            "role": "Developer"
         }
     ],
     "require": {

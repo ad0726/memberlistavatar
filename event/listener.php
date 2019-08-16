@@ -33,13 +33,11 @@ class listener implements EventSubscriberInterface
 
     public function memberlist_team_modify_query($event)
     {
-		$group_ids     = $event['group_ids'];
-		$sql_ary       = $event['sql_ary'];
-		$teampage_data = $event['teampage_data'];
+		$sql_ary       	   = $event['sql_ary'];
 
 		$sql_ary['SELECT'] = "u.user_id, u.group_id as default_group, u.username, u.username_clean, u.user_colour, u.user_type, u.user_rank, u.user_posts, u.user_allow_pm, u.user_avatar, g.group_id";
 
-		$event['sql_ary'] = $sql_ary;
+		$event['sql_ary']  = $sql_ary;
 	}
 
 	public function memberlist_team_modify_template_vars($event)

@@ -1,3 +1,5 @@
+https://gitlab.com/adynemo/memberlistavatar
+
 phpBB Extension - memberlistavatar
 =====================
 

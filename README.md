@@ -1,4 +1,4 @@
-https://gitlab.com/adynemo/memberlistavatar
+Migrate to https://gitlab.com/adynemo/memberlistavatar
 
 phpBB Extension - memberlistavatar
 =====================
